@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="/emp_basic/">
+<meta charset="UTF-8">
+<title>区域信息管理</title>
+<link style="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="main">
+		<div class="head">
+			<h1>企业信息管理系统</h1>
+		</div>
+		<div class="content">
+			<div class="left">
+				<ul>
+					<li><a href="region/region.html">区域信息管理</a></li>
+					<li><a href="depart/depart.html">部门信息管理</a></li>
+					<li><a href="emp/emp.html">员工信息管理</a></li>
+				</ul>
+			</div>
+			<div class="rigth">
+			  <form action="region/addRegion.do" method="post">
+				<table>
+					<caption>添加区域信息</caption>
+					<tbody>
+						<!-- <tr>
+							<td>区域编号：</td>
+							<td><input type="text" name="id"></td>
+						</tr> -->
+						<tr >
+							<td>区域名称：</td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="submit" value="保存">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				</form>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div class="footer">
+			本系统最终解释权为briup所有。
+		</div>
+	</div>
+</body>
+</html>

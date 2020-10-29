@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<base href="/emp_basic/">
+<meta charset="UTF-8">
+<title>区域信息管理</title>
+<link style="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="main">
+		<div class="head">
+			<h1>企业信息管理系统</h1>
+		</div>
+		<div class="content">
+			<div class="left">
+				<ul>
+					<li><a href="region/region.html">区域信息管理</a></li>
+					<li><a href="depart/depart.html">部门信息管理</a></li>
+					<li><a href="emp/emp.html">员工信息管理</a></li>
+				</ul>
+			</div>
+			<div class="rigth">
+			  <div class = "search">
+			   <span>
+				<input type="text" placeholder="请输入区域名称">
+				<button>检索</button>
+				<button onclick="javascript:window.location.href='region/addRegion.html'">添加</button>
+			   </span>
+			  </div>
+				<table>
+					<thead>
+						<tr>
+							<th>区域编号</th>
+							<th>区域名称</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>North Americ</td>
+							<td><button>编辑</button> <button>删除</button></td>
+						</tr>
+						<tr class="odd">
+							<td>1</td>
+							<td>North Americ</td>
+							<td><button>编辑</button> <button>删除</button></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>North Americ</td>
+							<td><button>编辑</button> <button>删除</button></td>
+						</tr>
+						<tr class="odd">
+							<td>1</td>
+							<td>North Americ</td>
+							<td><button>编辑</button> <button>删除</button></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>North Americ</td>
+							<td><button>编辑</button> <button>删除</button></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3" align="right">
+								<select name="pageSize">
+									<option value="5">5</option>
+									<option value="10">10</option>
+									<option value="15">15</option>
+									<option value="20">20</option>
+								</select>
+								<span><a href="#">首　页</a></span>
+								<span><a href="#">前一页</a></span>
+								<span><a href="#">后一页</a></span>
+								<span><a href="#">末　页</a></span>
+								共5条记录1页
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div class="footer">
+			本系统最终解释权为briup所有。
+		</div>
+	</div>
+</body>
+</html>
